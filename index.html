@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hisobli — Maxfiylik siyosati</title>
+<style>
+  :root { --bg:#fff; --ink:#16181d; --muted:#5b616e; --line:#e4e7ec; --accent:#1f6feb; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111317; --ink:#eceef2; --muted:#9aa1ad; --line:#2a2e36; --accent:#6ea8ff; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:28px; line-height:1.25; margin:0 0 4px; }
+  h2 { font-size:19px; margin:32px 0 8px; }
+  .muted { color:var(--muted); font-size:14px; }
+  nav { margin:16px 0 8px; font-size:14px; }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--line); margin:48px 0; }
+  li { margin:4px 0; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#uz">O‘zbekcha</a> · <a href="#ru">Русский</a></nav>
+
+<section id="uz">
+<h1>Hisobli — Maxfiylik siyosati</h1>
+<p class="muted">Kuchga kirgan sana: 2026-yil 19-noyabr</p>
+
+<p>Hisobli — do‘kon va diler jamoalari uchun qarz daftarini yuritish ilovasi. Ushbu sahifa ilova qanday
+ma’lumotlarni to‘plashi, ulardan qanday foydalanishi va ularni qanday o‘chirish mumkinligini tushuntiradi.</p>
+
+<h2>Qanday ma’lumotlar to‘planadi</h2>
+<ul>
+  <li><b>Telefon raqam</b> — hisobga kirish uchun (SMS orqali tasdiqlash kodi yuboriladi).</li>
+  <li><b>Ism va jamoa ma’lumotlari</b> — siz yoki jamoa rahbari kiritgan ism, rol, jamoa a’zolarining telefon raqamlari.</li>
+  <li><b>Daftar yozuvlari</b> — siz kiritgan magazinlar, mijozlar, qarz va to‘lov summalari, sanalar, izohlar.</li>
+  <li><b>Rasmlar</b> — yozuvga o‘zingiz biriktirgan nakladnoy yoki chek rasmlari.</li>
+  <li><b>Qurilma bildirishnoma tokeni</b> — push-bildirishnoma yuborish uchun.</li>
+  <li><b>Telegram chat identifikatori</b> — faqat siz Telegram botni o‘zingiz ulagan bo‘lsangiz.</li>
+</ul>
+
+<h2>Kontaktlar, kamera va biometriya</h2>
+<ul>
+  <li><b>Kontaktlar</b> — faqat siz mijoz yoki a’zo qo‘shishda kontakt tanlaganingizda o‘qiladi. Faqat tanlangan
+      ism va raqam saqlanadi; kontaktlar ro‘yxatingiz serverga yuklanmaydi.</li>
+  <li><b>Kamera va galereya</b> — faqat siz rasm biriktirganingizda ishlatiladi.</li>
+  <li><b>Barmoq izi / yuz</b> — ilovani qulflash uchun; biometrik ma’lumot qurilmada qoladi, bizga yetib kelmaydi.</li>
+</ul>
+
+<h2>Ma’lumotlardan qanday foydalaniladi</h2>
+<ul>
+  <li>hisobingizga kirish va uni himoya qilish;</li>
+  <li>daftarni qurilmalar va jamoa a’zolari o‘rtasida sinxronlash;</li>
+  <li>bildirishnoma va eslatmalar yuborish.</li>
+</ul>
+<p>Ma’lumotlar reklama uchun ishlatilmaydi va sotilmaydi. Ilovada reklama va uchinchi tomon analitikasi yo‘q.</p>
+
+<h2>Ma’lumotlar kimga uzatiladi</h2>
+<p>Ilova ishlashi uchun quyidagi xizmatlardan foydalaniladi; ularga faqat vazifa uchun zarur ma’lumot uzatiladi:</p>
+<ul>
+  <li><b>Supabase</b> — ma’lumotlar bazasi, fayllar va autentifikatsiya (hosting);</li>
+  <li><b>Eskiz</b> — tasdiqlash kodi SMSini yetkazish (telefon raqam);</li>
+  <li><b>Google Firebase Cloud Messaging</b> va <b>Apple Push Notification service</b> — push-bildirishnomalar (qurilma tokeni);</li>
+  <li><b>Telegram</b> — siz botni ulagan bo‘lsangiz, eslatmalar.</li>
+</ul>
+<p>Jamoa daftaridagi yozuvlar shu jamoaning a’zolariga ularning roliga muvofiq ko‘rinadi.</p>
+
+<h2>Saqlash va xavfsizlik</h2>
+<p>Ma’lumotlar uzatishda shifrlanadi (HTTPS) va serverda kirish huquqlari bilan cheklanadi: har bir foydalanuvchi
+faqat o‘ziga va jamoasiga tegishli yozuvlarni ko‘radi. Ma’lumotlar hisobingiz faol bo‘lgan davrda saqlanadi.</p>
+
+<h2>Ma’lumotlarni o‘chirish</h2>
+<p>Hisobingizni va unga bog‘liq ma’lumotlarni o‘chirishni istasangiz, Telegram’da
+<a href="https://t.me/hisobliapp_bot">@hisobliapp_bot</a> ga hisobingiz telefon raqami bilan murojaat qiling.
+So‘rov 30 kun ichida bajariladi. Jamoa daftaridagi yozuvlar jamoa rahbariga tegishli bo‘lib, ular rahbar
+so‘rovi bilan o‘chiriladi.</p>
+
+<h2>Bolalar</h2>
+<p>Ilova tadbirkorlar va ularning xodimlari uchun mo‘ljallangan va 18 yoshdan kichiklarga qaratilmagan.</p>
+
+<h2>O‘zgarishlar va aloqa</h2>
+<p>Siyosat o‘zgarsa, yangi tahriri shu sahifada e’lon qilinadi. Savollar uchun:
+<a href="https://t.me/hisobliapp_bot">@hisobliapp_bot</a>.</p>
+</section>
+
+<hr>
+
+<section id="ru" lang="ru">
+<h1>Hisobli — Политика конфиденциальности</h1>
+<p class="muted">Дата вступления в силу: 19 ноября 2026 г.</p>
+
+<p>Hisobli — приложение для ведения долговой книги магазинов и дилерских команд. На этой странице описано,
+какие данные собирает приложение, как они используются и как их удалить.</p>
+
+<h2>Какие данные собираются</h2>
+<ul>
+  <li><b>Номер телефона</b> — для входа в аккаунт (отправляется SMS с кодом подтверждения).</li>
+  <li><b>Имя и данные команды</b> — имя, роль и номера телефонов участников, указанные вами или руководителем команды.</li>
+  <li><b>Записи книги</b> — введённые вами магазины, клиенты, суммы долгов и оплат, даты, заметки.</li>
+  <li><b>Изображения</b> — фото накладных или чеков, которые вы сами прикрепили к записи.</li>
+  <li><b>Токен уведомлений устройства</b> — для отправки push-уведомлений.</li>
+  <li><b>Идентификатор чата Telegram</b> — только если вы сами подключили Telegram-бота.</li>
+</ul>
+
+<h2>Контакты, камера и биометрия</h2>
+<ul>
+  <li><b>Контакты</b> — читаются только когда вы выбираете контакт при добавлении клиента или участника.
+      Сохраняются только выбранные имя и номер; список контактов на сервер не загружается.</li>
+  <li><b>Камера и галерея</b> — используются только когда вы прикрепляете изображение.</li>
+  <li><b>Отпечаток / лицо</b> — для блокировки приложения; биометрические данные остаются на устройстве и к нам не поступают.</li>
+</ul>
+
+<h2>Как используются данные</h2>
+<ul>
+  <li>вход в аккаунт и его защита;</li>
+  <li>синхронизация книги между устройствами и участниками команды;</li>
+  <li>отправка уведомлений и напоминаний.</li>
+</ul>
+<p>Данные не используются для рекламы и не продаются. В приложении нет рекламы и сторонней аналитики.</p>
+
+<h2>Кому передаются данные</h2>
+<p>Для работы приложения используются следующие сервисы; им передаются только необходимые для задачи данные:</p>
+<ul>
+  <li><b>Supabase</b> — база данных, файлы и аутентификация (хостинг);</li>
+  <li><b>Eskiz</b> — доставка SMS с кодом подтверждения (номер телефона);</li>
+  <li><b>Google Firebase Cloud Messaging</b> и <b>Apple Push Notification service</b> — push-уведомления (токен устройства);</li>
+  <li><b>Telegram</b> — напоминания, если вы подключили бота.</li>
+</ul>
+<p>Записи командной книги видны участникам этой команды в соответствии с их ролью.</p>
+
+<h2>Хранение и безопасность</h2>
+<p>Данные шифруются при передаче (HTTPS), а доступ на сервере ограничен правами: каждый пользователь видит только
+записи, относящиеся к нему и его команде. Данные хранятся, пока аккаунт активен.</p>
+
+<h2>Удаление данных</h2>
+<p>Чтобы удалить аккаунт и связанные с ним данные, напишите в Telegram
+<a href="https://t.me/hisobliapp_bot">@hisobliapp_bot</a>, указав номер телефона аккаунта. Запрос выполняется в течение
+30 дней. Записи командной книги принадлежат руководителю команды и удаляются по его запросу.</p>
+
+<h2>Дети</h2>
+<p>Приложение предназначено для предпринимателей и их сотрудников и не адресовано лицам младше 18 лет.</p>
+
+<h2>Изменения и контакты</h2>
+<p>При изменении политики новая редакция публикуется на этой странице. Вопросы:
+<a href="https://t.me/hisobliapp_bot">@hisobliapp_bot</a>.</p>
+</section>
+</main>
+</body>
+</html>
